@@ -6,49 +6,49 @@
         jumboMode="false"
         revision="22.0.1"
         sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="/Users/garylin/Documents/MLHPRIME/MuseLogger/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-3655844fc8d02260ebe5a58fd4d2102cc7f71b57.jar" />
-    </item>
-    <item
-        jar="/Users/garylin/Documents/MLHPRIME/MuseLogger/app/libs/libmuseandroid.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1b7a1ebe2d998c58d6ce2157fa29ef6df6fbdd38">
-        <dex dex="/Users/garylin/Documents/MLHPRIME/MuseLogger/app/build/intermediates/pre-dexed/debug/libmuseandroid-d6e21ab8239c4b797f3aa6591813b86d4730a9e9.jar" />
-    </item>
-    <item
-        jar="/Users/garylin/Documents/MLHPRIME/MuseLogger/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="/Users/garylin/Documents/MLHPRIME/MuseLogger/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-92820712e6193b95f043673229105b108a5fbc7c.jar" />
+        <dex dex="/Users/garylin/Documents/MLHPRIME/MLHPrime/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-3655844fc8d02260ebe5a58fd4d2102cc7f71b57.jar" />
     </item>
     <item
         jar="/Users/garylin/.gradle/caches/modules-2/files-2.1/com.github.PhilJay/MPAndroidChart/v2.1.5/34b9f39e5343d39e205fb7617e734601dc4868e7/MPAndroidChart-v2.1.5.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="34b9f39e5343d39e205fb7617e734601dc4868e7">
-        <dex dex="/Users/garylin/Documents/MLHPRIME/MuseLogger/app/build/intermediates/pre-dexed/debug/MPAndroidChart-v2.1.5-76eacd7201439b7c33856794d733d122aaecb55a.jar" />
+        <dex dex="/Users/garylin/Documents/MLHPRIME/MLHPrime/app/build/intermediates/pre-dexed/debug/MPAndroidChart-v2.1.5-76eacd7201439b7c33856794d733d122aaecb55a.jar" />
     </item>
     <item
-        jar="/Users/garylin/Documents/MLHPRIME/MuseLogger/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jar="/Users/garylin/Documents/MLHPRIME/MLHPrime/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/garylin/Documents/MLHPRIME/MLHPrime/app/build/intermediates/pre-dexed/debug/classes-66b732608126c760e5b40ca7b414e8f03fb89682.jar" />
+    </item>
+    <item
+        jar="/Users/garylin/Documents/MLHPRIME/MLHPrime/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/garylin/Documents/MLHPRIME/MLHPrime/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-9c6a863473e14385bfb58d2e164dd864f246806f.jar" />
+    </item>
+    <item
+        jar="/Users/garylin/Documents/MLHPRIME/MLHPrime/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="/Users/garylin/Documents/MLHPRIME/MuseLogger/app/build/intermediates/pre-dexed/debug/classes-8fc46107286e23a8bad456c8453e156ec41bb685.jar" />
+        <dex dex="/Users/garylin/Documents/MLHPRIME/MLHPrime/app/build/intermediates/pre-dexed/debug/classes-e14c9fe50e8f34343854a3d3363e4abf526e6865.jar" />
     </item>
     <item
         jar="/Users/garylin/.gradle/caches/modules-2/files-2.1/de.greenrobot/eventbus/2.4.0/ddd166d01b3158d1c00576d29f7ed15c030df719/eventbus-2.4.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
-        <dex dex="/Users/garylin/Documents/MLHPRIME/MuseLogger/app/build/intermediates/pre-dexed/debug/eventbus-2.4.0-a0aeafd6afbf4f5d2bacddbb23117686dcefca37.jar" />
+        <dex dex="/Users/garylin/Documents/MLHPRIME/MLHPrime/app/build/intermediates/pre-dexed/debug/eventbus-2.4.0-a0aeafd6afbf4f5d2bacddbb23117686dcefca37.jar" />
     </item>
     <item
-        jar="/Users/garylin/Documents/MLHPRIME/MuseLogger/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jar="/Users/garylin/Documents/MLHPRIME/MLHPrime/app/libs/libmuseandroid.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="/Users/garylin/Documents/MLHPRIME/MuseLogger/app/build/intermediates/pre-dexed/debug/classes-bab13524d5a0ed8977b2d3ff50b65493ea246f93.jar" />
+        sha1="1b7a1ebe2d998c58d6ce2157fa29ef6df6fbdd38">
+        <dex dex="/Users/garylin/Documents/MLHPRIME/MLHPrime/app/build/intermediates/pre-dexed/debug/libmuseandroid-e1ce5ff50362557b0e98a0e54d9fd22bfbd74940.jar" />
     </item>
 
 </items>

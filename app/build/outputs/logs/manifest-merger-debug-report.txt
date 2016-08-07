@@ -56,16 +56,14 @@ ADDED from AndroidManifest.xml:20:17
 		ADDED from AndroidManifest.xml:20:27
 activity#com.chrisplus.muselogger.MuseActivity
 ADDED from AndroidManifest.xml:23:9
-	android:label
-		ADDED from AndroidManifest.xml:25:13
 	android:name
 		ADDED from AndroidManifest.xml:24:13
 activity#com.chrisplus.muselogger.SettingsActivity
-ADDED from AndroidManifest.xml:32:9
+ADDED from AndroidManifest.xml:26:9
 	android:label
-		ADDED from AndroidManifest.xml:34:13
+		ADDED from AndroidManifest.xml:28:13
 	android:name
-		ADDED from AndroidManifest.xml:33:13
+		ADDED from AndroidManifest.xml:27:13
 uses-sdk
 INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
 MERGED from com.android.support:appcompat-v7:22.2.0:20:5

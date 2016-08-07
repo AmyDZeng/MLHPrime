@@ -214,7 +214,7 @@ public class MuseActivity extends FragmentActivity {
                     float average = (values[0] + values[1] + values[2] + values[3])/4.0f;
                     //elem1.setText(float.toString(average));
                     System.out.println(average);
-                    if ((Float.compare(average, 0.5f) > 0) && !songTriggered) {
+                    if ((Float.compare(average, 0.3f) > 0) && !songTriggered) {
                         songTriggered = true;
                         //System.out.println("ASDFASDFASDFASDFADF\n\n\n\n\nASDFASDFASDFASDF\n\nASDFASDFASF\n\n");
                         CallTask task = new CallTask();
