@@ -133,6 +133,7 @@ public class MainActivity extends Activity implements OnClickListener {
     private boolean betaStale;
     private final double[] accelBuffer = new double[3];
     private boolean accelStale;
+    public boolean songTriggered = false;
 
     /**
      * We will be updating the UI using a handler instead of in packet handlers because
@@ -551,9 +552,16 @@ public class MainActivity extends Activity implements OnClickListener {
         TextView elem4 = (TextView)findViewById(R.id.elem4);
         elem4.setText(String.format("%6.2f", betaBuffer[3]));
 
-        // TODO: add signal here to send info
-        CallTask task = new CallTask();
-        task.execute();
+        // Solution 1: Use hardcoded threshold at channel average 0.6
+        double average = (betaBuffer[0] + betaBuffer[1] + betaBuffer[2] + betaBuffer[3])/4;
+        //elem1.setText(Double.toString(average));
+        System.out.println(average);
+        if ((Double.compare(average, (double)0.5f) > 0) && !songTriggered) {
+            songTriggered = true;
+            //System.out.println("ASDFASDFASDFASDFADF\n\n\n\n\nASDFASDFASDFASDF\n\nASDFASDFASF\n\n");
+            CallTask task = new CallTask();
+            task.execute();
+        }
     }
 
 
