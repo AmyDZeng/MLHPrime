@@ -226,7 +226,6 @@ public class MainActivity extends Activity implements OnClickListener {
             // first to make sure startListening will clear the list of headbands and start fresh.
             manager.stopListening();
             manager.startListening();
-
         } else if (v.getId() == R.id.connect) {
 
             // The user has pressed the "Connect" button to connect to
@@ -281,6 +280,11 @@ public class MainActivity extends Activity implements OnClickListener {
                 dataTransmission = !dataTransmission;
                 muse.enableDataTransmission(dataTransmission);
             }
+        } else {
+//        } else if (v.getId() == R.id.test) {
+            Log.d("Test", "Test button clicked");
+            CallTask task = new CallTask();
+            task.execute();
         }
     }
 
@@ -480,6 +484,8 @@ public class MainActivity extends Activity implements OnClickListener {
         disconnectButton.setOnClickListener(this);
         Button pauseButton = (Button) findViewById(R.id.pause);
         pauseButton.setOnClickListener(this);
+        Button testButton = (Button) findViewById(R.id.test);
+        testButton.setOnClickListener(this);
 
         spinnerAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item);
         Spinner musesSpinner = (Spinner) findViewById(R.id.muses_spinner);
@@ -546,6 +552,8 @@ public class MainActivity extends Activity implements OnClickListener {
         elem4.setText(String.format("%6.2f", betaBuffer[3]));
 
         // TODO: add signal here to send info
+        CallTask task = new CallTask();
+        task.execute();
     }
 
 
