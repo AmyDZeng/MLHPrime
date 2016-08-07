@@ -1,0 +1,78 @@
+# Various System/Temporary Files:
+Thumbs.db
+.DS_Store
+*.swp
+*~
+Desktop.ini
+
+# XCode User Settings:
+*.pbxuser
+xcuserdata/
+
+# Eclipse Workspace Metadata:
+.metadata/
+
+# TextMate Project Files:
+*.tmproj
+
+# Jasy Cache:
+.jasy
+
+# XWF Config File:
+Scripts/config.sh
+
+# XWF Android:
+Android/bin
+Android/gen
+Android/obj
+local.properties
+Android/proguard/
+Android/.settings
+Android/config/.classpath
+Android/config/.project
+Android/config/.settings/
+Android/config/bin/
+Android/config/project.properties
+Android/lint.xml
+
+# XWF Android Tests:
+Android/test/bin
+Android/test/gen
+Android/test/obj
+Android/test/local.properties
+Android/test/libs
+
+# XWF iOS:
+IOS/**/*/Localizable.strings
+IOS/ArtAssets/images.bundle/
+IOS/ArtAssets/xcodeImages/
+
+# Crashlytics
+Android/.crashlytics_data
+crashlytics-build.properties
+Android/res/values/com_crashlytics_export_strings.xml
+
+# AppCompat
+Android/android-support-v7-appcompat/bin/*
+Android/android-support-v7-appcompat/gen/**
+Android/android-support-v7-appcompat/proguard-project.txt
+Android/android-support-v7-appcompat/.settings
+
+# Facebook
+Android/facebook-sdk/.settings/
+
+# Helpshift
+Android/helpshift-sdk/bin
+Android/helpshift-sdk/gen
+
+# Gradle files
+.gradle/
+build/
+
+# Android Studio
+.idea/
+*.iml
+
+# Generated
+local.properties
+
